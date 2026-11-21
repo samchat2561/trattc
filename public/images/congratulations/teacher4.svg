@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="50%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#fefce8"/>
+    </linearGradient>
+    <linearGradient id="goldGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="ribbonGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="480" fill="url(#bgGrad4)"/>
+  <circle cx="80" cy="80" r="140" fill="#bbf7d0" opacity="0.3"/>
+  <circle cx="530" cy="400" r="160" fill="#fef08a" opacity="0.3"/>
+
+  <rect x="12" y="12" width="576" height="456" rx="16" fill="none" stroke="url(#goldGrad4)" stroke-width="3" opacity="0.8"/>
+  <rect x="18" y="18" width="564" height="444" rx="12" fill="none" stroke="#d97706" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Top Ribbon -->
+  <path d="M 330 25 L 570 25 L 585 45 L 570 65 L 330 65 Z" fill="url(#ribbonGrad4)"/>
+  <text x="450" y="48" fill="#ffffff" font-family="'Sarabun', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">
+    ข่าวแสดงความยินดีคณะครู ๒๕๖๙
+  </text>
+
+  <!-- College Logo Badge -->
+  <g transform="translate(45, 30)">
+    <circle cx="28" cy="28" r="26" fill="#7a1a40" stroke="#f59e0b" stroke-width="2"/>
+    <text x="28" y="34" fill="#fef08a" font-family="'Sarabun', sans-serif" font-size="20" font-weight="black" text-anchor="middle">วทต</text>
+  </g>
+  <text x="110" y="48" fill="#7a1a40" font-family="'Sarabun', sans-serif" font-size="15" font-weight="bold">วิทยาลัยเทคนิคตราด</text>
+  <text x="110" y="66" fill="#64748b" font-family="'Sarabun', sans-serif" font-size="11">Trat Technical College</text>
+
+  <!-- Left Content Box -->
+  <g transform="translate(35, 110)">
+    <rect x="0" y="0" width="280" height="320" rx="12" fill="#ffffff" opacity="0.88" stroke="#f1f5f9"/>
+
+    <text x="140" y="40" fill="#7a1a40" font-family="'Sarabun', sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+      ขอแสดงความยินดี
+    </text>
+    <text x="140" y="65" fill="#475569" font-family="'Sarabun', sans-serif" font-size="12" text-anchor="middle">
+      เนื่องในโอกาสได้รับการบรรจุแต่งตั้ง
+    </text>
+    <text x="140" y="85" fill="#475569" font-family="'Sarabun', sans-serif" font-size="12" text-anchor="middle">
+      เป็นข้าราชการครูและบุคลากรทางการศึกษา
+    </text>
+
+    <!-- Name Highlight -->
+    <rect x="15" y="110" width="250" height="48" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="140" y="140" fill="#065f46" font-family="'Sarabun', sans-serif" font-size="16.5" font-weight="black" text-anchor="middle">
+      นางสาวปัทมา คำยอด
+    </text>
+
+    <!-- Position & Department -->
+    <text x="140" y="190" fill="#1e293b" font-family="'Sarabun', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+      ตำแหน่ง "ครูผู้ช่วย"
+    </text>
+    <text x="140" y="215" fill="#059669" font-family="'Sarabun', sans-serif" font-size="12" font-weight="semibold" text-anchor="middle">
+      ประจำแผนกวิชาการบัญชี
+    </text>
+
+    <line x1="40" y1="240" x2="240" y2="240" stroke="#e2e8f0" stroke-width="1"/>
+
+    <text x="140" y="270" fill="#7a1a40" font-family="'Sarabun', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+      สู่รั้ว เทคนิคตราด
+    </text>
+    <text x="140" y="292" fill="#64748b" font-family="'Sarabun', sans-serif" font-size="11" font-style="italic" text-anchor="middle">
+      ด้วยความยินดียิ่ง
+    </text>
+  </g>
+
+  <!-- Right: Portrait Frame -->
+  <g transform="translate(340, 110)">
+    <rect x="0" y="0" width="220" height="320" rx="16" fill="#ffffff" filter="drop-shadow(0px 10px 15px rgba(0,0,0,0.08))"/>
+    <rect x="0" y="0" width="220" height="320" rx="16" fill="#f8fafc" stroke="#fde047" stroke-width="2"/>
+
+    <g clip-path="url(#photoClip4)">
+      <clipPath id="photoClip4">
+        <rect x="6" y="6" width="208" height="308" rx="12"/>
+      </clipPath>
+      <rect x="6" y="6" width="208" height="308" fill="#dcfce7"/>
+      <!-- Portrait -->
+      <circle cx="110" cy="115" r="46" fill="#fed7aa"/>
+      <path d="M 60 115 C 60 65, 160 65, 160 115 C 160 85, 140 60, 110 60 C 80 60, 60 85, 60 115 Z" fill="#1e293b"/>
+      <ellipse cx="110" cy="65" rx="32" ry="18" fill="#1e293b"/>
+      <ellipse cx="98" cy="112" rx="3.5" ry="4" fill="#0f172a"/>
+      <ellipse cx="122" cy="112" rx="3.5" ry="4" fill="#0f172a"/>
+      <path d="M 92 103 Q 98 100 104 103" stroke="#0f172a" stroke-width="1.5" fill="none"/>
+      <path d="M 116 103 Q 122 100 128 103" stroke="#0f172a" stroke-width="1.5" fill="none"/>
+      <path d="M 103 132 Q 110 138 117 132" stroke="#e11d48" stroke-width="2" fill="none"/>
+
+      <rect x="98" y="150" width="24" height="25" fill="#fcd34d"/>
+      <path d="M 60 200 L 98 165 L 110 190 L 122 165 L 160 200 L 160 320 L 60 320 Z" fill="#ffffff" stroke="#cbd5e1"/>
+      <path d="M 85 168 L 110 205 L 135 168" fill="#f8fafc" stroke="#94a3b8"/>
+      <polygon points="106,195 114,195 116,250 110,260 104,250" fill="#0284c7"/>
+      <rect x="42" y="195" width="26" height="12" rx="3" fill="#eab308" stroke="#ca8a04" stroke-width="1"/>
+      <rect x="152" y="195" width="26" height="12" rx="3" fill="#eab308" stroke="#ca8a04" stroke-width="1"/>
+      <rect x="80" y="215" width="22" height="10" fill="#dc2626" rx="1"/>
+      <rect x="120" y="217" width="26" height="6" fill="#1e293b" rx="1"/>
+    </g>
+
+    <circle cx="25" cy="295" r="28" fill="#86efac" opacity="0.8"/>
+    <circle cx="40" cy="310" r="20" fill="#16a34a" opacity="0.7"/>
+  </g>
+</svg>
